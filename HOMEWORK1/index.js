@@ -67,7 +67,7 @@ const startAI = function () {
     if (greetings === true) {
 
         const questionOne = function () {
-            const question = +prompt("How many seconds are in 1 hour?");
+            const question = +prompt("How many seconds are in 1 hour?", 0);
             if (question === question + 0) {
                 if (question === 3600) {
                     const message = alert("You're right. It was easy.");
@@ -87,7 +87,7 @@ const startAI = function () {
         questionOne();
 
         const questionTwo = function () {
-            const question = +prompt("How many seconds are in 1 day?");
+            const question = +prompt("How many seconds are in 1 day?", 0);
             if (question === question + 0) {
                 if (question === 86400) {
                     const message = alert("You're right. Congratulations!");
@@ -105,7 +105,7 @@ const startAI = function () {
         questionTwo();
 
         const questionThree = function () {
-            const question = +prompt("How many seconds are in 1 month (31 days)?");
+            const question = +prompt("How many seconds are in 1 month (31 days)?", 0);
             if (question === question + 0) {
                 if (question === 2678400) {
                     const message = alert("You're right. I'm sure you didn't count in a column.");

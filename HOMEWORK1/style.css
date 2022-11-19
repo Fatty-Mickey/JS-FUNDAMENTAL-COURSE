@@ -9,7 +9,7 @@
     max-width: 1200px;
     height: 100vh;
     margin: auto;
-    background: url(/robot-svgrepo-com.svg) center center/cover no-repeat;
+    background: url(./robot-svgrepo-com.svg) center center/cover no-repeat;
     text-align: center;
 }
 h1 {
