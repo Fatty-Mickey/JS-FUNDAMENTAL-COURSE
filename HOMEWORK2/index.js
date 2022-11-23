@@ -1,3 +1,22 @@
+// task 0
+const arr = [];
+arr.push(1, 2, 3, 4, 5);
+console.log(arr);
+arr.pop();
+console.log(arr);
+arr.shift();
+console.log(arr);
+arr.unshift(0, 1);
+console.log(arr);
+console.log(arr.slice(1, 3));
+console.log(arr.slice());
+console.log(arr.slice(2));
+arr.splice(2, 2, -2, -3);
+console.log(arr);
+arr.splice(2);
+console.log(arr);
+console.log(arr.concat(arr));
+
 // task 1
 // let x = 1;
 // let y = 2;
@@ -39,11 +58,11 @@
 // array[1] = 'str';
 // array[2] = true;
 // array[3] = null;
-// array.push(1, 'str', true, null)
+// array.push(1, 'str', true, null);
 // console.log(array.length);
 // array.push(prompt("Enter the meaning"));
 // console.log(array[4]);
-// array.shift(0);
+// array.shift();
 // console.log(array);
 
 // task 4
