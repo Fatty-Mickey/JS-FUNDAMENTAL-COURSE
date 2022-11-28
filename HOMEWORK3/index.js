@@ -81,24 +81,18 @@
 
 
 // task 7
-// decision 1
 // const lastElem = function (arr, count) {
-//     count === undefined ? count = 1 :
-//         count > arr.length ? count = arr.length : count;
-//     const newArr = [];
-//     for (let i = arr.length - 1; i > arr.length - 1 - count; i--) {
-//         newArr.unshift(arr[i]);
-//     }
-//     console.log(newArr);
+//     count ? count : count = 1;
+//     return arr.slice(- count);
 // };
-// lastElem([3, 4, 10, -5]);
-// lastElem([3, 4, 10, -5], 2);
-// lastElem([3, 4, 10, -5], 8);
+// console.log(lastElem([3, 4, 10, -5]));
+// console.log(lastElem([3, 4, 10, -5], 2));
+// console.log(lastElem([3, 4, 10, -5], 8));
 
 // task 8
-// const firstSymbolToUpCase = function (str) {    
+// const firstSymbolToUpCase = function (str) {
 //     const arr = [];
-//     for (let word of str.split(' ')) { 
+//     for (let word of str.split(' ')) {
 //         arr.push(`${word[0].toUpperCase()}${word.slice(1)}`)
 //     }
 //     console.log(arr.join(' '));
