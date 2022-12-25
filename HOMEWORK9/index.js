@@ -14,7 +14,7 @@
 // ************************ Task 1 ************************
 document.body.innerHTML += `<a class="link" href="https://cdnjs.com/libraries/jquery">link</a>`;
 $(function () {
-    if ($('.link').attr('href')) {
+    if (/https/.test($('.link').attr('href'))) {
         $('.link').attr('target', '_blank')
     }
 });
