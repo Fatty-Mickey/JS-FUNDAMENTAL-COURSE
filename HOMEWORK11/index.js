@@ -2,7 +2,6 @@
 // const http = require("http");
 // const os = require('os');
 // const path = require('path');
-// const notes = '/users/projects/notes.txt'
 
 // http.createServer((request, response) => {
 //     response.writeHead(200, { "Content-Type": "text/html" });
@@ -11,8 +10,8 @@
 //         <h3>${os.type()}</h3>
 //         <h3>${os.release() }</h3>
 //         <h3>${os.uptime()}</h3>
-//         <h3>${path.dirname(notes)}</h3>
-//         <h3>${path.basename(notes)}</h3>
+//         <h3>${path.dirname(__filename)}</h3>
+//         <h3>${path.basename(__filename)}</h3>
 //     `);
 
 //     response.end()
@@ -30,3 +29,5 @@ http.createServer((request, response) => {
     response.end()
 }).listen(5000);
 console.log("Server is running at http://127.0.0.1:5000");
+
+
